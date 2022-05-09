@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 nohup python -u train.py --trainRoot /mnt/data1/data/guyu.gy/SyntheticChineseStringDataset/train --valRoot /mnt/data1/data/guyu.gy/SyntheticChineseStringDataset/test --expr_dir /mnt/data1/data/guyu.gy/SyntheticChineseStringDataset/weights --cuda --adam --batchSize 128 &
